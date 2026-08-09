@@ -1,0 +1,20 @@
+# Optional: paste a Discord webhook URL here to get race-winner announcements posted
+# to a Discord channel. Leave blank to disable - no Discord bot or plugin required,
+# this just sends a plain web request straight to the webhook.
+discord-webhook-url: ""
+
+# Don't edit races by hand - use these in-game commands instead:
+#   /boatrace create <name>
+#   /boatrace <name> setlobby | setwaiting | setfinish
+#   /boatrace <name> setminplayers|setmaxplayers <n>
+#   /boatrace <name> setcountdown <seconds>
+#   /boatrace <name> setboat <oak|spruce|birch|...>
+#   /boatrace <name> setlane <lane>
+#   /boatrace <name> checkpoint add
+#   /boatrace <name> validate
+#   /boatrace <name> enable
+# Races appear below automatically as you set them up.
+races: {}
+
+# Holograms placed with /boatrace hologram create <race> <wins|fastest> - don't edit by hand
+holograms: {}

@@ -1,0 +1,19 @@
+name: BoatRace
+version: 2.0.0
+main: com.boatrace.plugin.BoatRacePlugin
+api-version: '26.2'
+author: YourName
+description: Multi-track boat racing plugin - queues, lanes, checkpoints, stats, leaderboards
+
+commands:
+  race:
+    description: Join/leave races, view stats and leaderboards, open the menu
+    usage: /race [join|leave|list|stats|leaderboard|leavespectate|gui] [args]
+  boatrace:
+    description: Admin commands for creating and managing races
+    usage: /boatrace <create|delete|list|info|clone|reload|hologram|name> [args]
+
+permissions:
+  boatrace.admin:
+    description: Allows using /boatrace admin commands
+    default: op
